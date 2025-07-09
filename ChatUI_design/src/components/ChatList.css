@@ -1,0 +1,147 @@
+.chat-list {
+  flex: 1;
+  max-width: 280px;
+  border-right: 1px solid #ddd;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-list input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.user-section, .group-section {
+  margin-top: 1rem;
+}
+
+.chat-user {
+  position: relative; /* ⬅️ enable absolute positioning inside */
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0.6rem;
+  background-color: #fff;
+  margin-bottom: 0.6rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.read-icon {
+  position: absolute;
+  right: 0.75rem; /* distance from right edge */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+}
+
+
+.avatar-circle, .group-icon {
+  width: 32px;
+  height: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  background-color: #6c63ff;
+}
+
+.group-icon {
+  border-radius: 6px;
+  background-color: #a29bfe;
+}
+
+.user-details {
+  flex: 1;
+  margin-left: 0.9rem; 
+}
+
+
+.user-name {
+  font-weight: 600;
+}
+
+.user-msg {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.timestamp {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.group-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem;
+  background-color: #fff;
+  margin-bottom: 0.6rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.group-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #6c63ff;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.color-0 {
+  background-color: rgba(108, 99, 255, 0.2);   /* light indigo */
+  color: #6c63ff;
+}
+
+.color-1 {
+  background-color: rgba(255, 153, 0, 0.2);    /* soft orange */
+  color: #ff9900;
+}
+
+.color-2 {
+  background-color: rgba(0, 200, 83, 0.2);     /* soft green */
+  color: #00c853;
+}
+
+.color-3 {
+  background-color: rgba(255, 61, 87, 0.2);    /* light red */
+  color: #ff3d5a;
+}
+
+.color-4 {
+  background-color: rgba(0, 172, 193, 0.2);    /* teal */
+  color: #00acc1;
+}
+
+.color-5 {
+  background-color: rgba(156, 39, 176, 0.2);   /* purple */
+  color: #9c27b0;
+}
+
+
+.scroll-area {
+  overflow-y: auto;
+  flex: 1;
+  padding-right: 4px; /* optional for scrollbar spacing */
+}

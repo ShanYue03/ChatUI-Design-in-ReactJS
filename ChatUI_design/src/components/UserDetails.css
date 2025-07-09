@@ -1,0 +1,174 @@
+.user-details {
+  flex: 1;
+  max-width: 300px;
+  background-color: #fff;
+  border-left: 1px solid #eee;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-image img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-content {
+  background: #fff;
+  margin: -40px 1rem 1rem 1rem;
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  margin-top: -40px;
+}
+
+.user-role {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.user-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  color: #555;
+  gap: 5px;
+  margin-bottom: 1rem;
+}
+
+.user-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.circle-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-btn.gray {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.circle-btn.purple {
+  background-color: #6c63ff;
+  color: #fff;
+}
+
+.circle-btn.pink {
+  background-color: #ff2d75;
+  color: #fff;
+}
+
+.user-info {
+  text-align: left;
+  margin-top: 1.5rem;
+}
+
+.user-info h4 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.user-info .value {
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 0.6rem;
+}
+
+.group-participants {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.group-participants h4 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.group-tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #e3fcef;
+  color: #2e7d32;
+  border-radius: 20px;
+  padding: 4px 10px;
+  width: fit-content;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.tag-icon {
+  background-color: #c6f6d5;
+  color: #2e7d32;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group-avatars {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.group-avatars img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.group-avatars .more {
+  font-size: 0.8rem;
+  background-color: #eee;
+  padding: 4px 8px;
+  border-radius: 12px;
+}
+
+.media-section {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.media-gallery {
+  display: flex;
+  gap: 8px;
+}
+
+.media-gallery img {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  object-fit: cover;
+}

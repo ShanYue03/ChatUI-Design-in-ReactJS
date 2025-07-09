@@ -1,0 +1,38 @@
+.message-row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.message-row.sent {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.bubble-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+}
+
+.bubble-content {
+  max-width: 70%;
+  background-color: #f1f0f0;
+  padding: 0.6rem 1rem;
+  border-radius: 12px;
+}
+
+.message-row.sent .bubble-content {
+  background-color: #d4f8c4;
+}
+
+.bubble-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.bubble-text {
+  font-size: 0.95rem;
+}
